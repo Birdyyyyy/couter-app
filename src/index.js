@@ -15,13 +15,6 @@ const render = () => ReactDOM.render(
     />,
     rootEl
   )
-
-// const root = ReactDOM.createRoot(document.getElementById("root"));
-// root.render(<Counter
-//     value={store.getState()}
-//     onIncrement={() => store.dispatch({ type: 'INCREMENT' })}
-//     onDecrement={() => store.dispatch({ type: 'DECREMENT' })}
-//   />,);
   
   render()
   store.subscribe(render)
